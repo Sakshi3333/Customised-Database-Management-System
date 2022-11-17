@@ -39,7 +39,6 @@ class DBMS
         lobj = new LinkedList<>();
     }
 
-    // Insert into student Girish 1000 20
     // select * from student
     public void StartDBMS()
     {
@@ -230,7 +229,7 @@ class DBMS
             }
             else if(QuerySize == 6)
             {
-                // Insert into student Girish 1000 20
+                // Insert into student Sakshi 1000 20
                 if("insert".equals(tokens[0]))
                 {
                     InsertData(tokens[3],Integer.parseInt(tokens[4]),Integer.parseInt(tokens[5]));
